@@ -1,0 +1,52 @@
+# Ignore node_modules directory and all its contents
+node_modules/
+
+# Ignore build artifacts or generated files
+build/
+
+# Ignore VSCode settings and related files
+.vscode/
+
+# Ignore temporary files created by editors or IDEs
+*.swp
+
+# Ignore package-lock.json or yarn.lock files
+package-lock.json
+yarn.lock
+
+# Ignore environment configuration files
+.env
+.env.local
+
+# Ignore test coverage files
+coverage/
+
+# Ignore any additional temporary files or cache directories
+# Add them according to your specific project needs
+
+# Ignore IDE project files generated for specific IDEs
+*.idea/
+*.cproject
+*.sublime-project
+
+# Ignore configuration files created by tools like Grunt or Gulp
+Gruntfile.js
+gulpfile.js
+
+# Ignore any platform-specific files (e.g., DS_Store on macOS)
+.DS_Store
+
+# Ignore editor config files
+.eslintrc
+.prettierrc
+.stylelintrc
+
+# Ignore IDE-specific history files
+.history
+
+# Ignore npm or yarn debug logs
+npm-debug.log
+yarn-debug.log
+
+# Ignore generated documentation files
+docs/
